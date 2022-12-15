@@ -8,6 +8,8 @@
 
   export let columnDefs;
   export let data;
+  export let pagination = false;
+  export let paginationPageSize = 10;
   export let theme = "alpine";
   export let options = {
     defaultColDef: {
@@ -55,6 +57,8 @@
       onGridReady,
       onCellValueChanged,
       onSelectionChanged,
+      pagination,
+      paginationPageSize
     });
   });
 
