@@ -1,6 +1,6 @@
 # svelte-ag-grid
 
-A barebones wrapper around ag-grid.
+A barebones wrapper around ag-grid. I forked this project to add pagination
 
 Example usage:
 ```svelte
